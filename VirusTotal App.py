@@ -161,7 +161,7 @@ def choose_calc():
         pass
 
 
-greeting = tk.Label(text="Please tell me what you would like to search.", font=("Arial", 14), background="#ADD8E6")
+greeting = tk.Label(text="Please tell me what you would like to search:", font=("Arial", 14), background="#ADD8E6")
 greeting.place(x=300, y=50, anchor=CENTER)
 
 search_bar = tk.Entry(width=40)
